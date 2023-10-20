@@ -17,7 +17,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "./index.html"),
-
+        template: resolve(__dirname, "./src/html/template.html"),
       },
     },
   },
